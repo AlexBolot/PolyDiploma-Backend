@@ -1,3 +1,5 @@
+package fr.polytech.polydiploma.participantpool;
+
 import java.util.List;
 
 public class Graduate extends Expected {

@@ -1,3 +1,5 @@
+package fr.polytech.polydiploma.participantpool;
+
 public class Speaker extends Expected {
 
     //private Timeslot timeslot

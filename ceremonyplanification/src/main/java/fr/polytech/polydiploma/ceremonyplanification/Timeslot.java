@@ -1,3 +1,5 @@
+package fr.polytech.polydiploma.ceremonyplanification;
+
 import java.time.LocalTime;
 
 public class Timeslot {
@@ -19,7 +21,7 @@ public class Timeslot {
 
     @Override
     public String toString() {
-        return "Timeslot{" +
+        return "fr.polytech.polydiploma.ceremonyplanification.Timeslot{" +
                 "start=" + start +
                 ", end=" + end +
                 '}';

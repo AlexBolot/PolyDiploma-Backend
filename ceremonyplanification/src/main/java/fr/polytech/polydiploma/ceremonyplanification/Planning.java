@@ -1,3 +1,7 @@
+package fr.polytech.polydiploma.ceremonyplanification;
+
+import fr.polytech.polydiploma.participantpool.Expected;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.HashMap;

@@ -1,3 +1,5 @@
+package fr.polytech.polydiploma.participantpool;
+
 public class Guest extends Participant {
 
     private boolean payingGuest;
@@ -13,4 +15,11 @@ public class Guest extends Participant {
         return hasPayed;
     }
 
+    @Override
+    public String toString() {
+        return "Guest{" +
+                "payingGuest=" + payingGuest +
+                ", hasPayed=" + hasPayed +
+                '}' + super.toString();
+    }
 }

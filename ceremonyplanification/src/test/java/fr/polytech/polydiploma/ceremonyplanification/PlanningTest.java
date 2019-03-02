@@ -1,10 +1,14 @@
-import org.junit.Before;
+package fr.polytech.polydiploma.ceremonyplanification;
+
+import fr.polytech.polydiploma.participantpool.Guest;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeAll;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
-public class GuestTest {
+public class PlanningTest {
+
     public Guest g1;
 
     @BeforeAll
