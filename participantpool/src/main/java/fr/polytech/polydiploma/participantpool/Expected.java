@@ -9,6 +9,14 @@ public class Expected extends Participant {
         this.mail = mail;
     }
 
+    public String getMail() {
+        return mail;
+    }
+
+    public boolean isAttending() {
+        return attending;
+    }
+
     @Override
     public String toString() {
         return "Expected{" +
