@@ -1,6 +1,6 @@
-#PolyDiploma - Team E
+# PolyDiploma - Team E
 
-##Deved by :
+## Deved by :
 
 - Alexandre Bolot
 - Hugo François
