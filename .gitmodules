@@ -1,0 +1,33 @@
+[submodule "SuperviseParticipant"]
+	path = SuperviseParticipant
+	url = https://github.com/pns-isa-devops-1819/SuperviseParticipant
+[submodule "BankService"]
+	path = BankService
+	url = https://github.com/pns-isa-devops-1819/BankService
+[submodule "PlanCeremony"]
+	path = PlanCeremony
+	url = https://github.com/pns-isa-devops-1819/PlanCeremony
+[submodule "GetGraduated"]
+	path = GetGraduated
+	url = https://github.com/pns-isa-devops-1819/GetGraduated
+[submodule "CommunicateWithHost"]
+	path = CommunicateWithHost
+	url = https://github.com/pns-isa-devops-1819/CommunicateWithHost
+[submodule "Pay"]
+	path = Pay
+	url = https://github.com/pns-isa-devops-1819/Pay
+[submodule "UniversityService"]
+	path = UniversityService
+	url = https://github.com/pns-isa-devops-1819/UniversityService
+[submodule "ClientOrganisation"]
+	path = ClientOrganisation
+	url = https://github.com/pns-isa-devops-1819/ClientOrganisation
+[submodule "MailService"]
+	path = MailService
+	url = https://github.com/pns-isa-devops-1819/MailService
+[submodule "ClientAlumn"]
+	path = ClientAlumn
+	url = https://github.com/pns-isa-devops-1819/ClientAlumn
+[submodule "ClientCompta"]
+	path = ClientCompta
+	url = https://github.com/pns-isa-devops-1819/ClientCompta
