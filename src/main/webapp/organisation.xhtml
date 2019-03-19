@@ -23,12 +23,12 @@
             <h:form id="register-graduate-form">
                 <h:panelGrid columns="2">
                     <h:outputText value='Firstname'/>
-                    <h:inputText value='#{graduateBeam.firstName}' required="true" />
+                    <h:inputText value='#{graduateBean.firstName}' required="true" />
                     <h:outputText value='Lastname'/>
-                    <h:inputText value='#{graduateBeam.lastName}' required="true" />
+                    <h:inputText value='#{graduateBean.lastName}' required="true" />
                     <h:outputText value='Email'/>
-                    <h:inputText value='#{graduateBeam.email}' required="true"/>
-                    <h:commandButton action="#{graduateBeam.register}" value="Register"/>
+                    <h:inputText value='#{graduateBean.email}' required="true"/>
+                    <h:commandButton action="#{graduateBean.register}" value="Register"/>
                 </h:panelGrid>
             </h:form>
         </f:view>
@@ -38,12 +38,14 @@
             <h:form id="register-vip-form">
                 <h:panelGrid columns="2">
                     <h:outputText value='Firstname'/>
-                    <h:inputText value='#{graduateBeam.firstName}' required="true" />
+                    <h:inputText value='#{participantBean.firstName}' required="true" />
                     <h:outputText value='Lastname'/>
-                    <h:inputText value='#{graduateBeam.lastName}' required="true" />
+                    <h:inputText value='#{participantBean.lastName}' required="true" />
                     <h:outputText value='Email'/>
-                    <h:inputText value='#{graduateBeam.email}' required="true"/>
-                    <h:commandButton action="#{graduateBeam.register}" value="Register"/>
+                    <h:inputText value='#{participantBean.email}' required="true"/>
+                    <h:outputText value='Timeslot Id'/>
+                    <h:inputText value='#{participantBean.timeslotId}' required="true"/>
+                    <h:commandButton action="#{participantBean.register}" value="Register"/>
                 </h:panelGrid>
             </h:form>
         </f:view>
