@@ -173,8 +173,6 @@
             <id>centralDev</id>
             <name>608ca269e086-releases</name>
             <url>http://51.83.69.199:8081/artifactory/libs-release-local</url>
-
-            <!--<url>http://51.83.69.199:8081/artifactory/libs-release-local</url>-->
         </repository>
     </repositories>
 
