@@ -4,7 +4,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core"
       xml:lang="en" lang="en">
 
     <h:head>
@@ -16,19 +16,18 @@
         <h1>Client Organisation</h1>
 
         <h:messages id="form-error" style="color: red"/>
-        <h:messages id="form-success" style="color: green"/>
 
         <h2>Ajouter un élève</h2>
         <f:view>
             <h:form id="register-graduate-form">
                 <h:panelGrid columns="2">
-                    <h:outputText value='Firstname'/>
+                    <h:outputText value='Prenom'/>
                     <h:inputText value='#{graduateBean.firstName}' required="true" />
-                    <h:outputText value='Lastname'/>
+                    <h:outputText value='Nom'/>
                     <h:inputText value='#{graduateBean.lastName}' required="true" />
                     <h:outputText value='Email'/>
                     <h:inputText value='#{graduateBean.email}' required="true"/>
-                    <h:commandButton action="#{graduateBean.register}" value="Register"/>
+                    <h:commandButton action="#{graduateBean.register}" value="Ajouter"/>
                 </h:panelGrid>
             </h:form>
         </f:view>
@@ -37,18 +36,34 @@
         <f:view>
             <h:form id="register-vip-form">
                 <h:panelGrid columns="2">
-                    <h:outputText value='Firstname'/>
+                    <h:outputText value='Prénom'/>
                     <h:inputText value='#{participantBean.firstName}' required="true" />
-                    <h:outputText value='Lastname'/>
+                    <h:outputText value='Nom'/>
                     <h:inputText value='#{participantBean.lastName}' required="true" />
                     <h:outputText value='Email'/>
                     <h:inputText value='#{participantBean.email}' required="true"/>
                     <h:outputText value='Timeslot Id'/>
                     <h:inputText value='#{participantBean.timeslotId}' required="true"/>
-                    <h:commandButton action="#{participantBean.register}" value="Register"/>
+                    <h:commandButton action="#{participantBean.validate}" value="Ajouter"/>
                 </h:panelGrid>
             </h:form>
         </f:view>
+
+        <!--<h2>Afficher le Planning</h2>-->
+        <!--<f:view>-->
+            <!--<h:commandButton action="#{planningBean.updateDisplayPlanning}" value="Récuperer le Planning" />-->
+        <!--</f:v<h:form>
+          <c:forEach var="item" items="#{cart.items}">
+            <h:commandButton value="#{item}"/>
+          </c:forEach>
+        </h:form>iew>-->
+
+        <!--<h:form>-->
+            <!--<c:forEach var="item" items="#{participantBean.paticipants}">-->
+                <!--<h:commandButton value="#{item}"/>-->
+            <!--</c:forEach>-->
+        <!--</h:form>-->
+
 
     </h:body>
 

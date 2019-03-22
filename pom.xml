@@ -56,6 +56,11 @@
             <artifactId>ClientOrganisation</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>fr.polytech.polydiploma</groupId>
+            <artifactId>ClientAlum</artifactId>
+            <version>1.0</version>
+        </dependency>
         <!-- Dependencies for the OpenEJB framework (provided at runtime by the app server) -->
         <dependency>
             <groupId>org.apache.tomee</groupId>
