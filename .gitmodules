@@ -31,3 +31,6 @@
 [submodule "ClientCompta"]
 	path = ClientCompta
 	url = https://github.com/pns-isa-devops-1819/ClientCompta
+[submodule "PayWebService"]
+	path = PayWebService
+	url = https://github.com/pns-isa-devops-1819/PayWebService.git
