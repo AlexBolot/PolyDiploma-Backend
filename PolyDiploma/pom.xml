@@ -53,12 +53,12 @@
         </dependency>
         <dependency>
             <groupId>fr.polytech.polydiploma</groupId>
-            <artifactId>ClientOrganisation</artifactId>
+            <artifactId>OrganisationWebService</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>fr.polytech.polydiploma</groupId>
-            <artifactId>ClientAlum</artifactId>
+            <artifactId>AlumnWebService</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
@@ -194,15 +194,6 @@
                     <addDefaultConstructor>true</addDefaultConstructor>
                     <enforcePropertyRestrictions>true</enforcePropertyRestrictions>
                 </configuration>
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>enhancer</id>-->
-<!--                        <phase>process-classes</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>enhance</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
             </plugin>
         </plugins>
     </build>
