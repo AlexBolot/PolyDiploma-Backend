@@ -19,15 +19,15 @@
 [submodule "UniversityService"]
 	path = UniversityService
 	url = https://github.com/pns-isa-devops-1819/UniversityService
-[submodule "ClientOrganisation"]
-	path = ClientOrganisation
-	url = https://github.com/pns-isa-devops-1819/ClientOrganisation
+[submodule "OrganisationWebService"]
+	path = OrganisationWebService
+	url = https://github.com/pns-isa-devops-1819/OrganisationWebService
 [submodule "MailService"]
 	path = MailService
 	url = https://github.com/pns-isa-devops-1819/MailService
-[submodule "ClientAlumn"]
-	path = ClientAlumn
-	url = https://github.com/pns-isa-devops-1819/ClientAlumn
+[submodule "AlumnWebService"]
+	path = AlumnWebService
+	url = https://github.com/pns-isa-devops-1819/AlumnWebService
 [submodule "ClientCompta"]
 	path = ClientCompta
 	url = https://github.com/pns-isa-devops-1819/ClientCompta
