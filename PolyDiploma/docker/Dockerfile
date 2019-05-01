@@ -30,6 +30,9 @@ HEALTHCHECK --interval=5s CMD curl --fail http://localhost:8080/ || exit 1
 
 # exposing the 8080 port to support external connections
 EXPOSE 8080
+EXPOSE 8081
+EXPOSE 8082
+EXPOSE 8083
 
 # Starting the service
 ENTRYPOINT ["./start-polydiploma.sh"]
