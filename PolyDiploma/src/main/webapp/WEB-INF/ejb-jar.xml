@@ -3,17 +3,22 @@
          version = "3.0" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation = "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd">
 
-    <interceptors>
-<!--        <interceptor>-->
-<!--            <interceptor-class>fr.unice.polytech.isa.tcf.interceptors.CartCounter</interceptor-class>-->
-<!--        </interceptor>-->
-<!--        <interceptor>-->
-<!--            <interceptor-class>fr.unice.polytech.isa.tcf.interceptors.LogParameters</interceptor-class>-->
-<!--        </interceptor>-->
+    <!--TODO : uncomment following interceptors to unleash hell on the backend :) -->
+    <!--<interceptors>
         <interceptor>
             <interceptor-class>fr.polytech.polydiploma.interceptor.SpeakerVerifier</interceptor-class>
         </interceptor>
-    </interceptors>
+        <interceptor>
+            <interceptor-class>fr.polytech.polydiploma.interceptor.BankDataVerifier</interceptor-class>
+        </interceptor>
+        <interceptor>
+            <interceptor-class>fr.polytech.polydiploma.interceptor.PaimentVerifier</interceptor-class>
+        </interceptor>
+        <interceptor>
+            <interceptor-class>fr.polytech.polydiploma.interceptor.TimeslotVerifier</interceptor-class>
+        </interceptor>
+    </interceptors>-->
+
 
 <!--    <assembly-descriptor>-->
 <!--        <interceptor-binding>-->
