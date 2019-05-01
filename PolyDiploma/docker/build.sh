@@ -9,7 +9,7 @@ cp ./target/polydiploma-backend.war ./docker/.
 
 # building the docker image
 cd ./docker/
-docker build -t build -t team-e/polydiploma-backend .
+docker build -t build -t lucasoms/team-e:polydiploma-backend .
 
 # cleaning up the environment
 rm -rf polydiploma-backend.war
