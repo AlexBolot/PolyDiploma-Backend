@@ -30,7 +30,7 @@ Speaks with ClientOrganisation and University Service
 Used to send a Mail to the host to notice them with the number of participants
 Speaks with ClientOrganisation and Mail Service
 ### Pay
-Speaks with ClientCompta and Bank Service
+Speaks with ClientCompta and Bank Service in order to allow someone to pay an amount
 ### PlanCeremony
 Speaks with ClientOrganisation and Mail Service
 ### SuperviseParticipant
@@ -39,6 +39,7 @@ Speaks with ClientOrganisation and Alum Service
 
 ## Pros
 All the responsibilities of our component were well divided, and that allowed us to make an clean architecture and no overlap of functionnalities.
+Clients only have access to what they have to.
 
 ## Cons
-Database not persisted when the server is reboot
+Database not persisted yet when the server is reboot
