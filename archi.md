@@ -19,12 +19,12 @@
 - **Project Overview**
     - **Pros**
     - **Cons**
-    - **Possible Ugrades**
+    - **Possible Ugprades**
 
 ---
 
 ## Client access to PolyDiploma
-3 CLIs are provided in PolyDiploma : 
+3 CLIs are provided in PolyDiploma and are needed to be launched : 
 - Alum
 - Organisation
 - Compta
