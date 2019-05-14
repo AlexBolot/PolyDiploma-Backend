@@ -38,8 +38,9 @@ Speaks with ClientOrganisation and Alum Service
 
 
 ## Pros
-All the responsibilities of our component were well divided, and that allowed us to make an clean architecture and no overlap of functionnalities.
+All the responsibilities of our component were well divided, and that allowed us to make an clean architecture and no overlap of functionalities.
 Clients only have access to what they have to.
 
 ## Cons
 Database not persisted yet when the server is reboot
+SuperviseParticipant is connected to a lot of others components,  so if there is a problem on it, it can affect quite a lot, this could change.
