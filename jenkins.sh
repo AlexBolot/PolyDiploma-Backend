@@ -1,0 +1,1 @@
+echo vous pouvez vous connecter à l'addresse 51.83.69.199:8080 avec le login "prof" et le mdp "pns"
