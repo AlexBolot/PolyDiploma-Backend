@@ -198,6 +198,7 @@
                     <includes>**/entities/*.class</includes>
                     <addDefaultConstructor>true</addDefaultConstructor>
                     <enforcePropertyRestrictions>true</enforcePropertyRestrictions>
+                    <persistenceXmlFile>./src/main/resources/META-INF/persistence.xml</persistenceXmlFile>
                 </configuration>
             </plugin>
             <plugin>

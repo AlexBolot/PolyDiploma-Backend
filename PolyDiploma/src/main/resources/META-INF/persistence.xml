@@ -16,6 +16,8 @@
         <class>fr.polytech.polydiploma.entities.Participant</class>
         <class>fr.polytech.polydiploma.entities.Speaker</class>
 
+        <class>fr.polytech.polydiploma.entities.Paiement</class>
+
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>
