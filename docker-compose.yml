@@ -1,0 +1,32 @@
+version: '2.1'
+
+services:
+        polydiploma-backend:
+                image: lucasoms/team-e:polydiploma-backend
+                #container_name: polydiploma_backend
+                expose:
+                        - "8080"
+                ports:
+                        - "8080:8080"
+                depends_on:
+                        - university-service
+                        - mail-service
+                        - bank-service
+
+        mail-service:
+                image: lucasoms/team-e:mail-service
+                #container_name: mail_service
+                expose:
+                        - "9090"
+
+        university-service:
+                image: lucasoms/team-e:university-service
+                #container_name: university_service
+                expose:
+                        - "9091"
+
+        bank-service:
+                image: lucasoms/team-e:bank-service
+                #container_name: bank_service
+                expose:
+                        - "9092"
